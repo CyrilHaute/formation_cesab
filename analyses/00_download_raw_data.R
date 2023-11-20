@@ -21,4 +21,3 @@ lapply(1:length(urls), function(i) {
   
 })
 
-devtools::document()
