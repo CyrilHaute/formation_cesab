@@ -4,7 +4,6 @@
 #
 #############################################################
 
-
 source("R/download_function.R")
 
 urls <- list("main/data/pantheria/PanTHERIA_1-0_WR05_Aug2008.txt",
