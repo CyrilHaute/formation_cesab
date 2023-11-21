@@ -1,7 +1,18 @@
 
-download_function <- function(url, # provide the url the data comes from
-                              data_name, # name of the data either pantheria or wildfinder
-                              commit_name # name of the github commit the data comes from
+#' Data download function
+#'
+#' @param url rovide the url the data comes from
+#' @param data_name name of the data either pantheria or wildfinder
+#' @param commit_name name of the github commit the data comes from
+#'
+#' @return
+#' @export
+#'
+#' @examples
+
+download_function <- function(url,
+                              data_name,
+                              commit_name
                               ) {
   
   destination <- file.path("data", data_name)
