@@ -21,3 +21,8 @@ lapply(1:length(urls), function(i) {
   
 })
 
+pantheria <- read.delim("data/pantheria/PanTHERIA_1-0_WR05_Aug2008.txt")
+# pantheria$MSW05_Order <- as.factor(pantheria$MSW05_Order)
+# pantheria_summary <- pantheria |> 
+#   dplyr::group_by(MSW05_Order) |> 
+#   dplyr::summarise(n = dplyr::n())

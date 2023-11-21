@@ -6,3 +6,4 @@
 ^outputs$
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^make\.R$
